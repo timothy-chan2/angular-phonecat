@@ -28,7 +28,7 @@
       <dt>Type</dt>
       <dd>{{$ctrl.phone.battery.type}}</dd>
       <dt>Talk Time</dt>
-      <dd>{{$ctrl.phone.battery.talkTime}}</dd>
+      <dd>{{$ctrl.phone.battery.talkTime ? $ctrl.phone.battery.talkTime : 'Not available'}}</dd>
       <dt>Standby time (max)</dt>
       <dd>{{$ctrl.phone.battery.standbyTime}}</dd>
     </dl>
