@@ -63,7 +63,7 @@
       <dt>OS Version</dt>
       <dd>{{$ctrl.phone.android.os}}</dd>
       <dt>UI</dt>
-      <dd>{{$ctrl.phone.android.ui}}</dd>
+      <dd>{{$ctrl.phone.android.ui ? $ctrl.phone.android.ui : 'Not available'}}</dd>
     </dl>
   </li>
   <li>
